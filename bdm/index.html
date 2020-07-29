@@ -5,97 +5,7 @@
     
         <title>Bobby233的个人网站</title>
         <link rel="icon" href="../pic/favicon.ico" type="images/x-ico">
-        <style>
-            /* BDM v0.0.0 */
-            body {
-                background-color: #191919;      /* good background color with dark mode */
-            }
-            h1,h2,h3 {
-                color: #fff;
-            }
-            p,li {
-                color: rgb(163,163,163);
-            }
-            a {
-                color: #03e9f4;
-                text-decoration: none;
-            }
-            #an:hover {
-                text-decoration: underline;
-            }
-            button {
-                outline: none;
-                color: #03e9f4;                 /* good color with dark mode */
-                border: none;
-                background-color: #191919;
-            }
-            button:hover,#btnon {
-                background-color: #03e9f4;
-                color: #191919;
-                box-shadow: 0 0 5px #03e9f4,
-                            0 0 25px #03e9f4,
-                            0 0 50px #03e9f4,
-                            0 0 200px #03e9f4;
-            }
-            .nav, .footer {
-                position: absolute;
-                left: 50%;
-                transform: translate(-50%);
-            }
-            #fta {
-                color: gray !important;
-                text-decoration: none;
-            }
-            #fta:hover {
-                color: gray !important;
-                text-decoration: underline;
-            }
-            .fzxs {
-                font-family: fzxs;
-            }
-            @font-face {
-                font-family:fzxs;
-                src:url("../font/FZXIANGSU16.TTF");
-            }
-            #act {
-                background-color: #2c2c2c;
-                width: 85%;
-                margin-left: 35px;
-                word-break: break-all;
-                box-shadow: 0 0 1px #03e9f4,
-                            0 0 5px #03e9f4,
-                            0 0 10px #03e9f4,
-                            0 0 40px #03e9f4;
-            }
-            #act p {
-                margin-left: 30px;
-                margin-right: 15px;
-            }
-            #act h3 {
-                padding-left: 10px;
-                padding-top: 7px;
-            }
-            audio {
-                display: flex;
-            }
-            #arttit {
-                margin-left: 5%;
-            }
-            #artpar {
-                margin-left: 8%;
-                margin-right: 8%;
-            }
-            ul {
-                margin-left: 10%;
-                margin-right: 10%;
-            }
-            li {
-                padding-top: 5px;
-            }
-            pre {
-                font-family: consolas;
-            }
-        </style>
+        <link rel="stylesheet" href="../bdm.css" type="text/css">
     </head>
     <body>
         <h1 style="text-align: center;">Bobby233的个人网站</h1>
@@ -178,8 +88,12 @@ button {
             <h3 id="arttit">除本网站外使用BDM的网站</h3>
             <p id="artpar">
                 <ul>
-                    <li><a href="//liziqian.ml/main.html" id="an" style="color: red;">李梓迁的个人网站（未标记技术使用）</a></li>
+                    <li><a href="//liziqian.ml/main.html" id="an">李梓迁的个人网站</a></li>
                 </ul>
+            </p>
+            <h3 id="arttit">简单使用</h3>
+            <p id="artpar">
+                <pre style="margin-left: 8%;">&lt;link rel="stylesheet" href="//bobby233.github.io/bdm.css" type="text/css"&gt</pre>
             </p>
             <h3 id="arttit" class="fzxs">开发者们</h3>
             <div id="devs"></div>
