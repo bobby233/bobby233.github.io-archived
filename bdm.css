@@ -51,6 +51,8 @@ button:hover,#btnon {
     font-family:fzxs;
     src:url("https://bobby233.github.io/font/FZXIANGSU16.TTF");
 }
+
+/* Activities start */
 #act {
     background-color: #2c2c2c;
     width: 85%;
@@ -69,6 +71,15 @@ button:hover,#btnon {
     padding-left: 10px;
     padding-top: 7px;
 }
+/* SPECIAL: μ's act */
+.act-us {
+    box-shadow: 0 0 1px #e4007f,    /* M's color */
+                0 0 5px #e4007f,
+                0 0 10px #e4007f,
+                0 0 40px #e4007f !important;
+}
+/* Activities end */
+
 audio {
     display: flex;
 }
