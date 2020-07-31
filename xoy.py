@@ -38,22 +38,21 @@ class xOy(Scene):
         group = VGroup(axes, xlabel, ylabel, original).scale(0.7)
         group.shift(3*RIGHT + 0.8*UP)
         # Axes --> Ques
-        ques = TextMobject("25、如图，在直角坐标平面内，已知点", "A", "(", "8", ",0)，点", "B", "(", "3", ",0)，点C是点A关于点B的对称点.\\\ （1）求点C的坐标；\\\ ", "（2）如果点P在y轴上，过点P作直线l//x轴，点A关于直线l的对称点是点D，那么当三角形BCD的面积等于10时，求点P的坐标.", alignment="")
+        ques = TextMobject("25、如图，在直角坐标平面内，已知点", "A", "(", "8", ",0)，点", "B", "(", "3", ",0)，点C是点A关于点B的对称点.\\\ （1）求点C的坐标；", alignment="")
+        # , "（2）如果点P在y轴上，过点P作直线l//x轴，点A关于直线l的对称点是点D，那么当三角形BCD的面积等于10时，求点P的坐标."
         ques.shift(3.1*UP)
         ques.scale(0.6)
 
         self.play(
-            ShowCreation(axes, run_time=5),
-            Write(ques, run_time=5)
+            ShowCreation(axes, run_time=6),
+            Write(ques, run_time=6)
         )
         self.play(
             Write(xlabel),
             Write(ylabel),
             Write(original)
         )
-        self.wait()
-        self.play(FadeOut(ques[-1]))
-        self.wait()
+        self.wait(5)
 
         ## Display all --> Transform dots
 
