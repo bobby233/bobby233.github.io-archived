@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+        <title>属性咖啡厅-eBM</title>
+        <link rel="icon" href="../../pic/favicon.ico" type="images/x-ico">
+        <link rel="stylesheet" href="https://bobby233.github.io/bdm.css" type="text/css">
+
+        <style>
+            .media-info-content {
+                width: 1100px;
+                position: relative;
+                margin: 0 auto;
+            }
+            .media-info-inner {
+                padding: 44px 0 38px;
+            }
+            .media-preview {
+                float: left;
+                width: 233px;
+                height: 308px;
+                border: 4px solid grey;
+                border-radius: 8px;
+            }
+            .common-lazy-img {
+                width: 100%;
+                height: 100%;
+            }
+            .media-info-r {
+                margin-left: 250px;
+                margin-right: 58px;
+            }
+            .media-info-title {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .media-info-title-t {
+                display: inline-block;
+                font-size: 20px;
+                line-height: 22px;
+                font-weight: 700;
+                color: white;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .media-tags {
+                display: inline-block;
+                margin-left: 20px;
+                vertical-align: top;
+            }
+            .media-tag {
+                font-size: 12px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+                height: 20px;
+                padding: 0 4px;
+                line-height: 20px;
+                color: rgb(163, 163, 163);
+                border: 1px solid rgb(163, 163, 163);
+                border-radius: 3px;
+            }
+            .media-info-datas {
+                height: 60px;
+            }
+            .media-info-count {
+                font-size: 12px;
+                padding-top: 30px;
+                line-height: 1;
+                float: left;
+            }
+            .media-info-count-item {
+                width: 76px;
+                text-indent: 0;
+                display: inline-block;
+                border-right: 1px solid rgb(163, 163, 163);
+                height: 34px;
+            }
+            .media-info-count-item span {
+                line-height: 12px;
+            }
+            .media-info-count-item * {
+                color: rgb(163, 163, 163);
+                display: block;
+            }
+            .media-info-count-item em {
+                padding-top: 6px;
+                line-height: 17px;
+                font-style: normal;
+                font-weight: 700;
+            }
+            .media-info-score-wrp {
+                float: right;
+                padding-top: 26px;
+            }
+            .media-info-score {
+                white-space: nowrap;
+            }
+            .media-info-score-content {
+                display: inline-block;
+                vertical-align: top;
+                height: 36px;
+                margin: 0 7px 0 0;
+                text-align: right;
+                color: #ffa726;
+                font-size: 36px;
+                line-height: 36px;
+            }
+            .media-info-time {
+                margin-top: 28px;
+                height: 17px;
+                line-height: 17px;
+                font-size: 12px;
+                color: rgb(163, 163, 163);
+            }
+            .media-info-intro {
+                margin-top: 11px;
+                font-size: 12px;
+                color: rgb(163, 163, 163);
+                line-height: 20px;
+                min-height: 87px;
+            }
+            .media-info-btns {
+                float: left;
+                margin-top: 32px;
+            }
+            .bangumi-btn {
+                position: relative;
+                float: left;
+            }
+            .btn-watch {
+                width: 128px;
+                height: 48px;
+                line-height: 48px;
+                background-color: #03e9f4;
+                border-radius: 8px;
+                text-align: center;
+                font-size: 18px;
+                transition: all .3s ease;
+                color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Bobby233的个人网站</h1>
+        <p style="text-align: center;">简体中文 | <a href="../en/index.html" id="an" title="英语界面暂时停止维护" style="color: red;">English</a></p>
+        <hr>
+
+        <div class="nav">
+            <a href="../../bdm/index.html">
+            <button>BDM</button>
+            </a>
+            <button id="btnon">eBM</button>
+        </div><br><br>
+
+        <div>
+            <div>
+                <div class="media-info-content">
+                    <div class="media-info-inner">
+                        <div class="media-preview">
+                            <div class="common-lazy-img">
+                                <img alt src="../bds.png" style="height: 100%; width: 100%; border-radius: 4px;">
+                            </div>
+                        </div>
+                        <div class="media-info-r">
+                            <div class="media-info-title">
+                                <span class="media-info-title-t">属性咖啡厅</span>
+                                <span class="media-tags" style="opacity: 1;">
+                                    <span class="media-tag">萌系</span>
+                                    <span class="media-tag">少女</span>
+                                    <span class="media-tag">日常</span>
+                                    <span class="media-tag">漫画改</span>
+                                </span>
+                            </div>
+                            <div class="media-info-datas">
+                                <div class="media-info-count">
+                                    <span class="media-info-count-item">
+                                        <span class="media-info-label">B站总播放</span>
+                                        <em>3825.2万</em>
+                                    </span>
+                                    <span class="media-info-count-item">
+                                        <span class="media-info-label">B站追番人数</span>
+                                        <em>194.1万</em>
+                                    </span>
+                                    <span class="media-info-count-item" style="border-right: none;">
+                                        <span class="media-info-label">B站弹幕总数</span>
+                                        <em>110.6万</em>
+                                    </span>
+                                </div>
+                                <div class="media-info-score-wrp">
+                                    <div class="media-info-score">
+                                        <div class="media-info-score-content">9.6</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-info-time">
+                                <span>2017年10月8日开播</span>
+                                <span>已完结，全12话</span>
+                            </div>
+                            <div class="media-info-intro">
+                                <span>
+                                    简介：以一家咖啡厅为舞台，讲述着店员之间的交流，新人店员苺香来到了有着等各种性格特异员工的咖啡厅，在这充满特色的咖啡厅中，欢乐的打工生活由此展开！
+                                </span>
+                            </div>
+                            <div class="media-info-btns">
+                                <div class="bangumi-btn">
+                                    <a href="ep1/index.html"><button class="btn-watch">观看</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <h1 style="text-align: center;">仅·供·测·试</h1>
+        <a href="../index.html"><button>< 返回eBM工具</button></a>  <a href="../../index.html"><button>< 返回主页</button></a>
+
+        <hr>
+        <div class="footer">
+            <p style="font-size: x-small;">本网站使用<a href="//pages.github.com" id="fta">GitHub Pages</a> | UI by <a href="bdm" id="fta">BDM</a></p>
+            <p style="text-align: center;"><img src="../../pic/myface.jpg"></p>
+            <p style="text-align: center; font-size: xx-small;" lang="ja">希ちゃん</p>
+        </div>
+
+        <!-- Ready for <audio src="https://www.csgola.com/Public/csgo_music/danielsadowski_03/mainmenu.mp3" autoplay="autoplay" controls="controls">抱歉，您的浏览器不支持HTML5音频播放 :(</audio> -->
+
+    </body>
+</html>
